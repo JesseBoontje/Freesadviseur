@@ -1,0 +1,11 @@
+{
+  "name": "freesadviseur",
+  "account_id": "1aaa91af61ee9076f80653f8a1a554d7",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-13",
+  "routes": [{ "pattern": "freeswin.djez.app", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 }
+}
